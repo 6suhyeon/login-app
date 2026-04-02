@@ -1,0 +1,11 @@
+build/
+.gradle/
+.idea/
+*.iml
+out/
+*.class
+
+# H2 database files
+*.db
+*.mv.db
+*.trace.db
