@@ -68,7 +68,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <strong>세션 ID</strong>
-                            <p class="text-muted text-break" th:text="${sessionId}">session-id</p>
+                            <p class="text-muted text-break" th:text="${sessionId.substring(0, 8)} + '********'">session-id</p>
                         </div>
                         <div class="col-md-4">
                             <strong>세션 생성 시간</strong>
